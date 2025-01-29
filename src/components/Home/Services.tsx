@@ -8,7 +8,7 @@ export const  Services =() => {
     return (
         <div className="bg-black text-white pt-5 pb-10">
             <div>
-                <h2 className="text-[1.6rem] tracking-[3px] font-light ml-10">What We Offer</h2>
+                <h2 className="text-[1.6rem] tracking-[3px] font-light ml-10 md:ml-20 xl:ml-32">What We Offer</h2>
             </div>
                 <div>
                 <Carousel items={cards} />
