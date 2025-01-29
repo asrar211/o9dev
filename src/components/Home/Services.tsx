@@ -2,7 +2,7 @@ import { Carousel, Card } from "../ui/apple-cards-carousel";
 
 export const  Services =() => {
     const cards = data.map((card, index) => (
-        <Card key={card.category} card={card} index={index} />
+        <Card key={card.src} card={card} index={index} />
       ));
 
     return (
