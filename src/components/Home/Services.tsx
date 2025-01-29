@@ -21,22 +21,32 @@ const data = [
     {
       category: "Web Development",
       title: "Unlock the Power of AI in Web Development",
+      src: "web-development.jpg",
+      content: "Learn how AI can enhance your web development process."
     },
     {
       category: "App Development",
       title: "Boost Your App Development with AI Tools",
+      src: "app-development.jpg",
+      content: "Discover AI tools that can accelerate your app development."
     },
     {
       category: "Web Design",
       title: "Transform Your Designs with Cutting-Edge Tools",
+      src: "web-design.jpg",
+      content: "Explore modern tools that can transform your web designs."
     },
     {
       category: "Graphic Design",
       title: "Revolutionize Your Creativity with Modern Tools",
+      src: "graphic-design.jpg",
+      content: "Unleash your creativity with the latest graphic design tools."
     },
     {
       category: "DevOps",
-      title: "Streamline Your Development Workflow with DevOps"
+      title: "Streamline Your Development Workflow with DevOps",
+      src: "devops.jpg",
+      content: "Optimize your development workflow with DevOps practices."
     },
   ];
   
