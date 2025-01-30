@@ -6,6 +6,8 @@ import { Flip } from "../components/Home/Flip";
 import { Branding } from "../components/Home/Branding";
 import { Projects } from "../components/Home/Projects";
 import { Team } from "../components/Home/Team";
+import { Logo } from "../components/Home/Logo";
+import { Testimonials } from "../components/Home/Testimonials";
 
 
 export const Home = () => {
@@ -14,11 +16,13 @@ export const Home = () => {
             <Navbar/>
             <Brand/>
             <SparklesPreview/>
+            <Logo/>
             <Services/>
             <Flip/>
             <Branding/>
             <Projects/>
             <Team/>
+            <Testimonials/>
         </div>
     )
 }

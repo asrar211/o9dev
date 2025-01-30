@@ -7,3 +7,7 @@ body{
 .wrapper{
     font-family: "JetBrains Mono", serif;
 }
+
+.round{
+    border-radius: 0px 0px 100% 0px;
+}

@@ -1,4 +1,4 @@
-import { IconHome, IconMessage, IconUser } from "@tabler/icons-react";
+import { IconHome, IconTools, IconFileInfo } from "@tabler/icons-react";
 import { Link } from "react-router-dom";
 import { cn } from "../../lib/utils";
 
@@ -12,12 +12,12 @@ export const Navbar = () => {
         {
             name: "Services",
             link: "/services",
-            icon: <IconMessage className="h-6 w-6 text-neutral-500 dark:text-white" />
+            icon: <IconTools className="h-6 w-6 text-neutral-500 dark:text-white" />
         },
         {
             name: "About",
             link: "/about",
-            icon: <IconUser className="h-6 w-6 text-neutral-500 dark:text-white" />,
+            icon: <IconFileInfo className="h-6 w-6 text-neutral-500 dark:text-white" />,
         }
     ]
     return (

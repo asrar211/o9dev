@@ -26,7 +26,7 @@ export function SparklesPreview() {
       </p>   
       <button className="z-30 mt-30 border text-lg font-semibold relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-10 py-3 rounded-md">
       <span className="absolute inset-x-0 w-full mx-auto -top-px bg-gradient-to-r from-transparent via-green-500 to-transparent  h-px" />
-      <Link to='/grow'>Get Started</Link>
+      <Link to='/grow'>Get Yours</Link>
       </button>
     </div>
   );
