@@ -2,7 +2,7 @@ import { CardStack } from "../ui/card-stack";
 import { cn } from "../../lib/utils";
 export function Testimonials() {
   return (
-    <div className="bg-red-400">
+    <div className="bg-red-400 z-20">
     <div className="h-5 round bg-black"></div>
     <div>
         <h2 className="ml-10 mt-10 text-2xl font-medium text-white">What Our Customers Say</h2>

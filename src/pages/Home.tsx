@@ -10,6 +10,9 @@ import { Logo } from "../components/Home/Logo";
 import { Testimonials } from "../components/Home/Testimonials";
 
 import { motion, useSpring, useScroll } from "motion/react"
+import { GlobeComp } from "../components/Home/GlobeComp";
+import { Ready } from "../components/Home/Ready";
+import { Footer } from "../components/Home/Footer";
 
 
 export const Home = () => {
@@ -46,6 +49,9 @@ export const Home = () => {
             <Projects/>
             <Team/>
             <Testimonials/>
+            <GlobeComp/>
+            <Ready/>
+            <Footer/>
         </div>
     )
 }
