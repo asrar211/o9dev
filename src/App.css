@@ -11,3 +11,13 @@ body{
 .round{
     border-radius: 0px 0px 100% 0px;
 }
+
+.circle{
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    background-color: #000000;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
